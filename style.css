@@ -1,0 +1,733 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    padding-left: 5%;
+    padding-top: 1.5%;
+}
+body , html {
+    overflow-x: hidden;
+
+}
+.active{
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* Navbar */
+
+.navbar{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding:  40px;
+    color: whitesmoke;
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+   
+}
+.nav-links li{
+    margin: 0 28px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.logo{
+    margin-top: -15px;
+}
+
+.nav-links li a{
+    color:white;
+   
+}
+
+
+
+
+/* Header */
+header{
+    width:100vw;
+    height: 100vh;
+    background-image: url('./images/billy-huynh-W8KTS-mhFUE-unsplash.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{        
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+    
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.ctn:hover{
+    background-color: rgb(13, 2, 43);
+}
+.navbar .img{
+    color: whitesmoke;
+
+}
+
+/* Events */
+.events {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+    margin-top: 50px;
+    
+}
+.row{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+  
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row{
+    margin-top: 50px;
+
+}
+.events .paragraph{
+    justify-content: center;
+    text-align: center;
+   
+}
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px 0;
+}
+p{
+    color: #7c7c7c;
+   
+}
+.events .ctn{
+    margin-top: 25px;
+
+}
+.rol .col img{
+    width: 80%;
+}
+.col .imagebulb{
+    height: 48vh;
+    width:35vw;
+}
+.col .imagebrain{
+    height: 48vh;
+    width:35vw;
+}
+
+/* Explore */
+.explore{
+    width:100%;
+    height:100vh;
+    background-image: url('./images/explore1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+    width: 30%;
+    margin: 150vw 50px;
+    color:  whitesmoke;
+    display: flex;
+    flex-direction: column;
+    
+}
+.explore-content h1{
+    font-size: 7vmin;
+    
+}
+.explore-content p{
+    color: rgb(221, 221, 221);
+    font-size: 3vmin;
+    padding-left: 2px;
+}
+.explore-content .line{
+    margin-bottom: 50px;
+
+}    
+.explore-content .ctn{
+    margin-top: 40px;
+    width:110px;
+
+}
+/* Activities */
+.activities{
+    width: 100%;
+    height: 100vh;
+   
+}
+.icon{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  
+   
+}
+.icon .abcimage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+ .activities img{
+    height: 40vh;
+    width: 25vw;
+   
+ }
+
+ .iconimage{
+    font-size: 5vmin;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 37%;
+    border: 8px #fff solid;
+  
+
+}   
+
+/* Conclusion */
+.forthpart{
+    
+    
+    background: whitesmoke;
+    
+}
+.conclusion{
+   padding-right: 10%;
+   padding-left: 10%;
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ; 
+  
+}
+.conclusion .conclusion1{
+    display: flex;
+
+    flex-direction: column;
+    
+}
+.conclusion1    h4{ 
+    font-size: 5vmin;
+    
+    
+}
+.conclusion1 p{
+    font-size: 3vmin;
+    text-align: left;
+}
+.conclusion .ctn{
+    width:110px;  
+    margin: 30px auto;
+    padding-left: 18px;
+    margin-left:0;
+
+}
+.conclusion .iconcamera{
+    
+    display: flex;
+    
+    align-items: end;
+}
+.conclusion .iconcamera .iconCamera1{
+    margin-bottom: 10px ;
+    padding: 15px;
+    font-size: 10vmin;
+    color: burlywood;
+ }
+.conclusion .iconcamera .iconCamera2{
+    font-size: 30vmin;
+    color: #484872;
+ }
+
+ /* LAST PART */
+ .lastpart{
+    padding-bottom: 10px;
+    background: #263e3d;
+    padding-left: 7%;
+    padding-right: 7%;
+   
+ }
+ .details{
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+ }
+ .details .web{
+    
+    flex-direction: column;
+    align-items: start;
+    max-width: 25%;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+
+        
+ }
+ .details .web h4{
+    font-size: 3vmin;
+    color: whitesmoke;
+ }
+ .details .web p{
+    font-size: 2.3vmin;
+    text-align: justify;
+
+ }
+ .icon3 i {
+    margin-top: -5px;
+    color: white;
+    padding: 7px;
+ }
+ .icon3{
+    display: flex;
+    padding-top: 10px;
+ }
+ .icon4{
+    display: flex;
+ }
+ .icon4 i{
+    padding: 5px;
+    color:white;
+ }
+ 
+.web h4{
+    font-family: cursive;
+}
+.details .web .inputMail{
+    margin-top: 10px;
+}
+.inputMail button{
+    background-color: #200bd7;
+    color: white;
+    margin-left: -5px;
+    cursor: pointer;
+}
+ /* Footer */
+.footer{
+    background: #1b1b2a;
+    
+  }
+  .last-item{
+    display:  flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+
+  }
+.foot p{
+    font-size: 1.5vmin;
+    margin-top: 2px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  .last-item .logo2{ 
+    color: white;
+    padding-left: 400px;
+    
+  }
+  
+
+/* SUBMENU FOR SERVICES*/
+.hasChild{
+    position: relative;
+}
+.hasChild ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #393053;
+    min-width: 180px;
+    border-radius: 10px;
+    box-shadow:  0 0 5px #d8d8d8;
+}
+.hasChild ul{
+    padding: 0;
+}
+.hasChild ul li a{
+    padding: 7px 10px;
+    border-bottom: 1px #eee dotted;
+    color: white;
+    display: block;
+
+}
+.hasChild ul li a:hover{
+    background-color: #443C68;
+}
+.hasChild:hover ul{
+    display: block;
+}
+/* SUBMENU FOR PRODUCTS*/
+.hasChild1{
+    position: relative;
+}
+.hasChild1 ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #393053;
+    min-width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #d8d8d8;
+    
+}
+.hasChild1 ul{
+    padding: 0;
+}
+.hasChild1 ul li a{
+    padding: 7px 10px;
+    border-bottom: 1px #eee dotted;
+    color: white;
+    display: block;
+}
+.hasChild1 ul li a:hover{
+    background-color: #443C68;
+}
+.hasChild1:hover ul{
+    display: block;
+}
+
+/* Mobile Devices */
+@media only screen and  (max-width:767px) { 
+    /* SUBMENU */
+    
+    /* Navbar */
+    .navbar .menu-btn{
+        margin-top: 25px;
+        
+    }
+    #closeBtn{
+        margin-left: 220%;
+        padding: 5px;
+        border-radius: 30%;
+        color: white;
+        font-size: 5vmin;
+        
+    }
+    .nav-links {
+            flex-direction: column;
+            width: 100%;
+            height: 120vh;
+            justify-content: center;
+            background: #484872;
+            display:none;
+            position: fixed;
+            padding-top: 30px;
+        
+    }
+        
+    #menu {
+            display: flex;
+            margin-left: 90%;
+    }
+    .nav-links.d-block{
+        display: block;
+        z-index: 1;
+        
+    }
+    
+    .navbar {
+        padding: 0px;
+        
+       
+    }
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    
+  
+    .nav-links li {
+        
+        margin: 30px auto;
+        padding-left: 17px;
+        width: 101px;
+    }
+    .our-services{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    /* Activities */
+    .activities{
+    
+        height: 225vh;
+           
+    }
+    .abcimage img{
+        height: 50vh;
+        width: 70vw;
+        padding-top: 30px;
+    }
+   .icon .abcimage h4{
+       font-size: 5vmin;
+    
+    }
+   .abcimage .iconimage{
+    top: 3px;
+    left: 40%;
+    font-size: 5vmin;
+    }
+   
+    .icon{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        flex-direction: column;
+    }
+    
+    .iconimage{
+        font-size: 3.5vmin;
+        background-color: white;
+        padding: 8px;
+        border-radius: 50%;
+        position: absolute;
+        top: -30px;
+        left: 30%;
+        border: 8px #fff solid;
+    }  
+
+    .last-item{
+        display:  flex;
+        justify-content: center;
+        
+    }
+    .last-item .foot p{
+        padding-top: 3px;
+    }
+    .last-item .logo2{
+        padding-left: 50px;
+        
+    }
+    
+    .icon-class{
+     margin-left: -9px;
+    }
+  
+    .details{
+    flex-direction: column;
+    
+    align-items: center;
+    }
+
+    .details .web h4{
+    font-size: 4vmin;
+    }
+    .details .web p{
+    font-size: 3vmin;
+    text-align: center;
+    
+    }
+    /* EVENTS */
+  .events{
+    height: 235vh;
+    padding-top: 25%;
+    }
+.row {
+    
+    flex-direction: column;
+
+}
+.row .col img{
+    
+    padding-top: 30px;
+    width: 70vw;
+    height: 50vh;
+}
+.row .col h4{
+     font-size: 5vmin;
+}
+/* Last Part */
+.lastpart{
+    height: 165vh;
+    background: #263e3d;
+    
+   
+ }
+ .details{
+    display: flex;
+    justify-content: space-between;
+       
+ }
+ .details .web{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    justify-content: space-around;
+    margin: 10px;      
+ }
+
+ .web .icon4 p{
+    margin: 10px;
+ }
+ .web input{
+    width: 100px;
+
+}
+.web button{
+    margin-left: -5px;
+}
+.details .web p{
+    font-size: 2vmin;
+    text-align: left;
+}
+.icon-class .icon3{
+    margin: 5px;
+    margin-left: -96px;
+}
+.details .web p{
+    font-size: 3.5vmin;
+}
+.details .web .icon4 i{
+    padding-top: 13px;
+}
+/* Explore */
+
+.explore .explore-content{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color:  whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 700px;
+    
+}
+.explore .explore-content p{
+    margin-top: -15px;
+    font-size: 3.5vmin;
+}
+.explore .explore-content .ctn{
+    margin-top: 20px;
+}
+
+}   
+@media only screen and  (min-width:426px){
+/* footer */
+.last-item{
+    display:  flex;
+    justify-content: center;
+    
+}
+.last-item .foot p{
+    padding-top: 3px;
+}
+.last-item .logo2{
+    padding-left: 50px;
+    
+}
+/* Navbar */
+
+.nav-links li{
+    margin: 0 15px;
+
+}
+
+}
+
+
+/* Menubar Desktop */
+@media only screen and (min-width: 768px){
+    #closeBtn{
+        display: none;
+
+    }
+    #menu{
+        display: none;
+   }
+   .web button{
+
+    margin-left: 1px;
+   }
+   .icon-class .icon3{
+    margin-left: -8px;
+   }
+
+/* .nav-links{
+    width: 50%;
+    padding-left: 0;
+}
+.navlinks li{
+    margin-left: -30px;
+}
+.nav-links .ctn a{
+    margin-left: -10px;
+}
+.nav-links li a{
+    margin: 15px;
+} */
+
+}
